@@ -1,0 +1,112 @@
+/* reset padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* set padding to main */
+  main {
+    padding: 20px 0 0 20px;
+  }
+  /* nav inline style */
+  nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+  }
+  /* center divs */
+  section div {
+    text-align: center;
+  }
+  /* nav-bar style */
+  .nav-bar {
+    text-align: center;
+    background-color: #e4bc67;
+  }
+  /* page title (header) */
+  .pg-title {
+    text-align: center;
+    background-color: #a3e4cb;
+    height: max-content;
+    width: 100%;
+    position: fixed;
+  }
+
+  .container {
+    position: inherit;
+    padding-top: 100px;
+  }
+
+  .core-text {
+    min-width: 390px;
+    padding: 5px 5px 20px;
+  }
+
+  .sci-table {
+    align-self: center;
+    padding-right: 10px;
+    border-spacing: 3px;
+    display: inline;
+    float: left;
+  }
+
+  .table-side {
+    text-align: center;
+    padding: 20px 5px;
+  }
+
+  .sect-title {
+    font-style: oblique;
+    text-align: center;
+    padding: 25px 0 0 20px;
+    font-size: larger;
+  }
+
+  .sub-title {
+    font-size: large;
+    padding: 0 5px 0;
+    color: #b82515;
+  }
+
+  .imgs {
+    width: 35%;
+    height: auto;
+    vertical-align: top;
+  }
+
+  .videos {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 420px;
+    min-height: 300px;
+  }
+
+  .saitama {
+    text-decoration: none;
+    color: #020100;
+  }
+
+  .saitama:hover {
+    color: #983d34;
+  }
+
+  .is-a-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #020100;
+  }
+
+  .is-a-link:hover {
+    color: #a3e4cb;
+  }
+
+  .footer-bar {
+    text-align: center;
+    margin: 10px 0 0 0;
+    background-color: #a3e4cb;
+    width: 100%;
+  }
